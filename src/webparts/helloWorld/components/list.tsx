@@ -121,7 +121,7 @@ const List = (props:any):JSX.Element =>{
     return(
         <div>
             <DetailsList items={mData} columns={cols} />
-            <button onClick={()=>props.state('changed')}>chane</button>
+           
         </div>
     )
 }
