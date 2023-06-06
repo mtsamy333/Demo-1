@@ -29,7 +29,6 @@ export default function FirstReact(props:any): JSX.Element {
         DOB:new Date().toISOString()
     })
     
-    
     const inputHandle = (e:any): void => {
         if (e.target.name == 'name') {
             setValue({ ...value, name: e.target.value })
@@ -71,7 +70,6 @@ export default function FirstReact(props:any): JSX.Element {
     const getData = async () =>{
         await sp.web.lists.getByTitle("Practice").items.getById(props.edit.id).select("*,Title,age,gender,Id,EmailId,Email/EMail").expand('Email').get()
         .then((item:any) =>{
-            
             setValue({
                 name: item.Title ? item.Title : '',
                 age: item.age ? item.age : null,
@@ -149,11 +147,8 @@ export default function FirstReact(props:any): JSX.Element {
         }
     },[props.edit.authendication])
 
-    
     return (
-
         <div>
-            
             <div>
                 <TextField label='Name' name='name' value={value.name} onChange={(e) => inputHandle(e)} />
                 <TextField label='Age'  name='age' value={value.age==null?'':value.age.toString()} onChange={(e) => inputHandle(e)} />
