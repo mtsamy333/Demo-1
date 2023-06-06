@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "learning-spfx",
+    "libraryId": "710b3d7a-d663-4269-a619-ed486efe0fed",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "learning-spfx",
+    "solutionShortDescription": "learning-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

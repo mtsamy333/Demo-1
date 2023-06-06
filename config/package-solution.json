@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "learning-spfx-client-side-solution",
+    "id": "710b3d7a-d663-4269-a619-ed486efe0fed",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "learning-spfx description"
+      },
+      "longDescription": {
+        "default": "learning-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "learning-spfx Feature",
+        "description": "The feature that activates elements of the learning-spfx solution.",
+        "id": "f06bad7a-113e-462f-b1d6-fe13a418b2fa",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/learning-spfx.sppkg"
+  }
+}
