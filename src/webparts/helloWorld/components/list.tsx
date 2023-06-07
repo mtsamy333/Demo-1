@@ -15,6 +15,8 @@ interface IDatas {
     DOB:string;
 }
 
+/*testing   */
+
 const List = (props:any):JSX.Element =>{
 
     const cols: IColumn[] = [{
